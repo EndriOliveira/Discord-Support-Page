@@ -1,0 +1,20 @@
+.help-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 116px;
+  height: 46px;
+  border-radius: 20px;
+  background-color: #5865f2;
+  border-color: transparent;
+  color: #fff;
+  position: fixed;
+  left: 89.5%;
+  top: 89.5%;
+  font-size: 15px;
+  font-weight: bold;
+  svg {
+    fill: #FFF;
+    margin-right: 8px;
+  }
+}

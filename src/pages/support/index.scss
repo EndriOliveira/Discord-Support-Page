@@ -1,0 +1,49 @@
+.suporte {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: fit-content;
+    h2 {
+        font-size: 2rem;
+        font-family: sans-serif;
+    }
+    p {
+        margin: 0;
+    }
+    .suporte-description {
+        font-size: 1.25rem;
+        margin: 20px 0 75px 0;
+    }
+}
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.helpCenter {
+    height: 320px;
+    overflow: hidden;
+    background-image: url('https://theme.zdassets.com/theme_assets/678183/b7e9dce75f9edb23504e13b4699e208f204e5015.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    margin-bottom: 104px;
+    h2 {
+        color: #fff;
+        font-size: 48px;
+        margin: 38px auto;
+    }
+    input {
+        max-width: 610px;
+        width: 37.9vw;
+        height: 40px;
+        margin: 0 auto;
+        border-radius: 5px;
+        border-color: transparent;
+    }
+}
+.otherForms {
+    font-size: 1.5rem !important;
+}
